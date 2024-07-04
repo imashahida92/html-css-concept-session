@@ -1,18 +1,28 @@
 *{
-   margin: 0;
+   margin: 20;
    padding: 0;
 }
 h2{
-   color: red;
-   font-style: italic;
-   font-weight:bolder;
-   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgb(4, 1, 46);
+   /* font-style: italic;
+   font-weight:bolder; */
+   /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    */
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400px;
+   font-style: normal;
    text-decoration:overline;
    text-align: center;
    font-size: 50px;
 }
 #heading-parent{
-   background-color: rgb(31, 9, 4);
+   /* background-color: rgb(31, 9, 4); */
+   /* background-image: linear-gradient(75deg, black, rgb(29, 134, 196)); */
+   background-image:linear-gradient(45deg, #4081e2,transparent), 
+   url("../code.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
    padding: 50px;
    /* height:300px;
    width: 300px;
@@ -20,4 +30,18 @@ h2{
    margin-left: auto; */
    margin: 0px auto;
    height:500px;
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 1% 100%, 18% 75%, 7% 56%, 0 39%, 18% 24%);
+}
+.btn{
+   background-color: rgba(54, 47, 150, 0.986);
+   padding: 8px 15px;
+   color: bisque;
+   border-style: solid;
+   border-width: 4px;
+   border-color: rgb(0, 0, 2);
+   border-radius: 10px;
+   font-size: 20px;
+}
+.btn-parent{
+   text-align: center;
 }
